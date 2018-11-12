@@ -27,6 +27,7 @@ npm test
 
 npm serve
 ```
+open [http://http:localhost:8080](http://http:localhost:8080)
 
 Special thanks & inspiration
 ----
