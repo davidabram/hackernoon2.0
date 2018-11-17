@@ -5,20 +5,24 @@
     "deploy:reset": "truffle deploy --reset --network loom_dapp_chain",
     "deploy": "truffle deploy --network loom_dapp_chain",
     "test": "truffle test --network loom_dapp_chain",
-    "serve": "webpack-dev-server --hot --content-base ./dist"
+    "serve": "webpack-dev-server --hot --content-base ./dist",
+    "indexer": "node ./src/indexer.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bip39": "^2.5.0",
     "bn.js": "^4.11.8",
     "commander": "^2.18.0",
+    "elasticsearch": "^15.2.0",
+    "elasticsearch-browser": "^15.2.0",
     "ethereumjs-wallet": "^0.6.2",
     "loom-js": "1.27.1",
     "loom-truffle-provider": "^0.8.0",
     "truffle": "^4.1.14",
+    "truffle-hdwallet-provider": "^0.0.6",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10",
-    "truffle-hdwallet-provider": "^0.0.6"
+    "webpack-dev-server": "^3.1.10"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.46",
@@ -32,7 +36,6 @@
     "react-dom": "^16.3.2",
     "react-router-dom": "^4.3.1",
     "regenerator-runtime": "^0.11.1",
-    "request-promise": "^4.2.2",
     "web3": "^1.0.0-beta.34",
     "webpack-bundle-analyzer": "^3.0.3"
   }

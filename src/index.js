@@ -11,6 +11,7 @@ const Index = class Index extends React.Component {
       logs: [],
       unpublished: [],
       published: [],
+      searchResult: [],
       title: 'The best story',
       text: 'This is a story!',
     }

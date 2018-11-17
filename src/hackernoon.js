@@ -3,8 +3,7 @@ import {
 } from 'loom-js'
 
 import Web3 from 'web3'
-import HackerNoon from './contracts/HackerNoon.json'
-
+import HackerNoon from './contracts/HackerNoon.json';
 
 const hackernoonPrivateKey = CryptoUtils.generatePrivateKey()
 const hackernoonPublicKey = CryptoUtils.publicKeyFromPrivateKey(hackernoonPrivateKey)
