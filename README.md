@@ -29,6 +29,24 @@ npm serve
 ```
 open [http://http:localhost:8080](http://http:localhost:8080)
 
+Install elastic search by following instructions:
+
+[https://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html](https://www.elastic.co/guide/en/elasticsearch/reference/current/_installation.html)
+
+or by using docker
+```bash
+docker run -d --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elasticsearch:tag
+```
+start indexer
+```bash
+# Open third terminal
+npm run indexer
+```
+
+Start elasticsearch instance.
+
+
+
 Special thanks & inspiration
 ----
 [https://loomx.io](https://loomx.io)  
