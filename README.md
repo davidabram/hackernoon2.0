@@ -19,6 +19,7 @@ curl https://raw.githubusercontent.com/loomnetwork/loom-sdk-documentation/master
 ./loom init
 ./loom run
 ```
+You can explore here your blockchain [https://blockexplorer.loomx.io/](https://blockexplorer.loomx.io/)
 
 ```bash
 # Open second terminal
